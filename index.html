@@ -28,7 +28,7 @@
             },"name": "cinzyae"
     }
     </script></head>
-    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
@@ -67,12 +67,8 @@
                 <div class="container"><div class="page home" posts><div class="home-profile"></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/batchfile/">Batchfile</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>cinzyae</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-02-20">2022-02-20</time></span></div><div class="content">newmd.bat @set /p mdname=input markdown name: @hugo new posts/%mdname%.md autopush.bat set defaultcommit=%date% @hugo @cd ./public @echo git start: git add . @set /p commit=input commitcontent: @ if defined commit (git commit -m &quot;%commit%&quot;) else (git commit -m &quot;%defaultcommit%&quot;) git push @echo finish @pause </div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>cinzyae</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-02-20">2022-02-20</time></span></div><div class="content"><p>auto make new post and upload.</p></div><div class="post-footer">
         <a href="/posts/batchfile/">阅读全文</a></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/first/">test</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>cinzyae</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-02-20">2022-02-20</time></span></div><div class="content">title content</div><div class="post-footer">
-        <a href="/posts/first/">阅读全文</a></div>
 </article></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>

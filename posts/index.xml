@@ -9,13 +9,6 @@
     <pubDate>Sun, 20 Feb 2022 22:07:22 &#43;0800</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/batchfile/</guid>
-    <description><![CDATA[newmd.bat @set /p mdname=input markdown name: @hugo new posts/%mdname%.md autopush.bat set defaultcommit=%date% @hugo @cd ./public @echo git start: git add . @set /p commit=input commitcontent: @ if defined commit (git commit -m &quot;%commit%&quot;) else (git commit -m &quot;%defaultcommit%&quot;) git push @echo finish @pause ]]></description>
-</item><item>
-    <title>test</title>
-    <link>http://example.org/posts/first/</link>
-    <pubDate>Sun, 20 Feb 2022 21:28:48 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://example.org/posts/first/</guid>
-    <description><![CDATA[title content]]></description>
+    <description><![CDATA[<p>auto make new post and upload.</p>]]></description>
 </item></channel>
 </rss>
